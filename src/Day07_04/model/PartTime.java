@@ -1,4 +1,4 @@
-package Day07_04;
+package Day07_04.model;
 
 public class PartTime extends Employee{
     private int workTime;
@@ -14,7 +14,10 @@ public class PartTime extends Employee{
         super(id, name, age);
         this.workTime = workTime;
     }
-
+    public PartTime(Employee employee ,int workTime) {
+        super(employee.getId(), employee.getName(), employee.getAge());
+        this.workTime = workTime;
+    }
     @Override
     public String toString() {
         return super.toString() + "PartTime{" +
