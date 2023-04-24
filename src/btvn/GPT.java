@@ -18,6 +18,8 @@ public class GPT {
     }
 
     public static void ptBac2(Scanner scanner) {
+
+
         double a = inputNumber(scanner, "a");
         double b = inputNumber(scanner, "b");
         double c = inputNumber(scanner, "c");
