@@ -1,7 +1,6 @@
-package Day07_04.controller;
+package day07_04.controller;
 
-import Day07_04.model.Employee;
-import Day07_04.service.ManageEmployee;
+import day07_04.service.ManageEmployee;
 
 import java.util.Scanner;
 

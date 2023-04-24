@@ -1,4 +1,4 @@
-package Day07_04.model;
+package day07_04.model;
 
 public class FullTime extends Employee{
     private int yearsOfExp;

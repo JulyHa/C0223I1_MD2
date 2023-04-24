@@ -1,8 +1,8 @@
-package Day07_04.service;
+package day07_04.service;
 
-import Day07_04.model.Employee;
-import Day07_04.model.FullTime;
-import Day07_04.model.PartTime;
+import day07_04.model.Employee;
+import day07_04.model.FullTime;
+import day07_04.model.PartTime;
 
 import java.util.Scanner;
 
